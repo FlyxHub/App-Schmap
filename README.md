@@ -1,15 +1,22 @@
 # App-Schmap
-It will be the greatest application
+It will be the greatest application.
 
-## App ideas
-
-### Budget planner
+## Budget planner
 - Set budget
 - Set saving goals
 - Track spending
 
-### Burger Builder
+## Burger Builder
 - Buns
-- catchup
-- pickles
-- cheese
+- Ketchup
+- Pickles
+- Cheese
+
+|Burger (what what)| 
+|:-:|
+|Bun|
+|Ketchup|
+|Pickle| 
+|Cheese|
+|Patty|
+|Bun|
