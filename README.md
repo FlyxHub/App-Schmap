@@ -6,17 +6,9 @@ It will be the greatest application.
 - Set saving goals
 - Track spending
 
-## Burger Builder
-- Buns
-- Ketchup
-- Pickles
-- Cheese
-
-|Burger (what what)| 
-|:-:|
-|Bun|
-|Ketchup|
-|Pickle| 
-|Cheese|
-|Patty|
-|Bun|
+| Things we need to figure out |
+| :--------------------------: |
+| How to make a mobile app |
+| How to make a budget tracker |
+| How to test a mobile app | 
+| How to publish a mobile app | 
