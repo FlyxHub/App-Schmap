@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Burger</title>
+</head>
+<body>
+    <h1>Your Delicious Burger:</h1>
+    <ul>
+        {% for ingredient, quantity in selected_items.items() %}
+            <li>{{ ingredient }} x {{ quantity }}</li>
+        {% endfor %}
+    </ul>
+    <h2>Total Price: ${{ total_price }}</h2>
+</body>
+</html>

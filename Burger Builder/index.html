@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger Builder</title>
+</head>
+<body>
+    <h1>Welcome to Burger Builder!</h1>
+    <form action="/build" method="post">
+        <h2>Choose Ingredients:</h2>
+        {% for ingredient, price in ingredients.items() %}
+            <input type="checkbox" name="{{ ingredient }}" value="1">{{ ingredient }} - ${{ price }}<br>
+        {% endfor %}
+        <br>
+        <input type="submit" value="Build Burger">
+    </form>
+</body>
+</html>
